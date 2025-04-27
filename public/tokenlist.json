@@ -1,0 +1,36 @@
+{
+  "name": "OctopusSwap",
+  "logoURI": "https://octopusswap.xyz/images/192x192_App_Icon.png",
+  "keywords": ["defi"],
+  "timestamp": "2025-03-27T20:37:00.000+00:00",
+  "tokens": [{
+    "chainId": 50002,
+    "address": "0xE9E02683F664CbAcC65ae220AB6D85096139B969",
+    "name": "wBTC",
+    "symbol": "wBTC",
+    "decimals": 18,
+    "logoURI": "https://octopusswap.xyz/images/btc.webp"
+  },
+    {
+      "chainId": 50002,
+      "address": "0x1e0abf166E64CC64CBa69b0BBdaFecB8eE0e27bc",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://octopusswap.xyz/images/usdc.webp"
+    },
+    {
+      "chainId": 50002,
+      "address": "0xc5CF3623A4acAbD24262FDF49e6ffc897DD5Fc18",
+      "name": "wETH",
+      "symbol": "wETH",
+      "decimals": 18,
+      "logoURI": "https://octopusswap.xyz/images/eth.webp"
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
