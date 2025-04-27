@@ -214,10 +214,6 @@ body {
   background-repeat: no-repeat;
   background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
   //background-color: #A4C6E0;
-  //background-color: #4DB8B8; /* 海洋绿色 */
   //background-image: linear-gradient(120deg, #66A5D6 0%, #A1E2D3 100%);
-
-
-
 }
 `
