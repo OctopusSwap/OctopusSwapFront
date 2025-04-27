@@ -92,7 +92,7 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://octopusswap.xyz/#/about">
+          <MenuItem id="link" href="https://www.hackquest.io/zh-cn/projects/Pharos-Builder-Base-Camp-Octopus-Swap">
             <Info size={14} />
             About
           </MenuItem>

@@ -206,13 +206,18 @@ html {
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
-  background-color: ${({ theme }) => theme.bg2};
 }
 
 body {
   min-height: 100vh;
   //background-position: 0 -30vh;
   background-repeat: no-repeat;
-  background-image: linear-gradient(120deg, #74ebd5 0%, #ACB6E5 100%);
+  background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
+  //background-color: #A4C6E0;
+  //background-color: #4DB8B8; /* 海洋绿色 */
+  //background-image: linear-gradient(120deg, #66A5D6 0%, #A1E2D3 100%);
+
+
+
 }
 `
