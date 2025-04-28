@@ -184,6 +184,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #76A9D6;
+  height: 100%; 
 }
 
 * {
@@ -210,6 +212,7 @@ html {
 
 body {
   min-height: 100vh;
+  height: 100%;
   //background-position: 0 -30vh;
   background-repeat: no-repeat;
   background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
