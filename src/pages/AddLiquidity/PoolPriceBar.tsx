@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from 'pharosswap-sdk'
+import { Currency, Percent, Price } from 'octopusswap-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

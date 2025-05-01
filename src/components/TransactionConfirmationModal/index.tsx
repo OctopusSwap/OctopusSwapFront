@@ -1,4 +1,4 @@
-import { ChainId } from 'pharosswap-sdk'
+import { ChainId } from 'octopusswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

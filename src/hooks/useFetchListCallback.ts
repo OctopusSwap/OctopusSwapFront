@@ -1,5 +1,5 @@
 import { nanoid } from '@reduxjs/toolkit'
-import { ChainId } from 'pharosswap-sdk'
+import { ChainId } from 'octopusswap-sdk'
 import { TokenList } from '@uniswap/token-lists'
 import { useCallback } from 'react'
 import { useDispatch } from 'react-redux'

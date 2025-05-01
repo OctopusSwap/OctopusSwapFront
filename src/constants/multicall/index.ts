@@ -1,4 +1,4 @@
-import { ChainId } from 'pharosswap-sdk'
+import { ChainId } from 'octopusswap-sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {

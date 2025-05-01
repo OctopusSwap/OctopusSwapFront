@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'pharosswap-sdk'
+import { Currency, ETHER, Token } from 'octopusswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

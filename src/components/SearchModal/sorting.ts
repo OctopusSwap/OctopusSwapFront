@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'pharosswap-sdk'
+import { Token, TokenAmount } from 'octopusswap-sdk'
 import { useMemo } from 'react'
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 
