@@ -72,7 +72,17 @@ export default function Pools() {
     const totalTVL = pools.reduce((total, pool) => total + pool.deposits, 0);
 
     if (loading) {
-        return <div className="pools-wrapper">Loading pools data...</div>;
+        return (
+            <div className="pools-wrapper">
+                <div className="loading-container">
+                    <div className="loading-spinner"></div>
+                    <div className="loading-text">
+                        Loading pools data...<br/>
+                        Please connect your wallet if you haven't already.
+                    </div>
+                </div>
+            </div>
+        );
     }
 
     return (
