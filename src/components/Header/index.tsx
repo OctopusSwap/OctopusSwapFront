@@ -142,7 +142,7 @@ export default function Header() {
     <HeaderFrame>
       <RowBetween style={{ alignItems: 'flex-start' }} padding="1rem 1rem 0 1rem">
         <HeaderElement>
-          <Title href=".">
+          <Title href="/#/swap">
             <UniIcon>
               <img src={isDark ? LogoDark : Logo} alt="logo" style={{ height: '35px', width: '35px' }} />
             </UniIcon>
