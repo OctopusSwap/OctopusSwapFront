@@ -184,7 +184,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #76A9D6;
+  background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
   height: 100%; 
 }
 
@@ -216,7 +216,6 @@ body {
   //background-position: 0 -30vh;
   background-repeat: no-repeat;
   background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
-  background-color: #5E7BBE; 
   //background-color: #A4C6E0;
   //background-image: linear-gradient(120deg, #66A5D6 0%, #A1E2D3 100%);
 }

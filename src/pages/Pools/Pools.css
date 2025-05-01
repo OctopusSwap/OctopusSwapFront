@@ -1,119 +1,272 @@
-.pools-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 16px;
-    padding: 20px;
-    width: 100%;
-}
-
-.pool-card {
-    background-color: white;
-    border-radius: 12px;
-    padding: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.pool-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
-}
-
-.token-pair {
-    display: flex;
-    gap: 12px;
-}
-
-.token {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    background-color: #eef1f5;
-    padding: 6px 10px;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.token-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.pool-type {
-    font-size: 14px;
-    color: #7a7f87;
-    font-weight: 500;
-    background-color: #f0f0f0;
-    padding: 4px 10px;
-    border-radius: 8px;
-}
-
-.pool-details {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 8px;
-}
-
-.detail span {
-    display: block;
-    font-size: 12px;
-    color: #7a7f87;
-}
-
-.detail strong {
-    font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
-@media (max-width: 600px) {
-    .pool-details {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .token-pair {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
 .pools-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    width: 100%;
 }
 
 .pools-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 0 4px;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 .pools-header h2 {
+    margin: 0;
     font-size: 24px;
-    font-weight: 700;
-    color: #1a1a1a;
+    color: #333;
+}
+
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    background: #fff;
 }
 
 .total-tvl {
     font-size: 16px;
-    font-weight: 600;
-    color: #1a1a1a;
     background: #fff;
     padding: 8px 16px;
-    border-radius: 12px;
+    border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.total-tvl strong {
+    margin-left: 8px;
+    color: #1890ff;
+}
+
+.pools-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* 分页样式 */
+.pagination {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 8px;
+    margin-top: 30px;
+}
+
+.pagination button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+    background: #f0f0f0;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination button.active {
+    background: #1890ff;
+    color: #fff;
+    border-color: #1890ff;
+}
+
+/* 大屏幕样式 */
+@media (min-width: 1200px) {
+    .pools-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pool-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .pool-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .pool-header {
+        flex: 1;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .token-pair {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .token {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: #f8f9fa;
+        padding: 8px 16px;
+        border-radius: 8px;
+    }
+
+    .token-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .pool-type {
+        padding: 6px 12px;
+        font-size: 14px;
+        background: #f0f0f0;
+        border-radius: 4px;
+        color: #666;
+    }
+
+    .pool-details {
+        display: flex;
+        gap: 40px;
+        margin-left: 40px;
+    }
+
+    .detail {
+        text-align: right;
+    }
+
+    .detail span {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .detail strong {
+        font-size: 18px;
+        color: #333;
+    }
+
+    .search-box {
+        max-width: 400px;
+    }
+}
+
+/* 小屏幕样式 */
+@media (max-width: 1199px) {
+    .pools-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .pool-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+    }
+
+    .pool-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .pool-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .token-pair {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .token {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .token-icon {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
+
+    .pool-type {
+        padding: 4px 8px;
+        background: #f0f0f0;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #666;
+    }
+
+    .pool-details {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .detail span {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .detail strong {
+        font-size: 16px;
+        color: #333;
+    }
+
+    /* 小屏幕下的搜索框样式 */
+    .header-controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .search-box {
+        max-width: 100%;
+    }
 }
