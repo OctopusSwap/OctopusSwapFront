@@ -1,0 +1,119 @@
+.pools-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    width: 100%;
+}
+
+.pool-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pool-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.token-pair {
+    display: flex;
+    gap: 12px;
+}
+
+.token {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #eef1f5;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.token-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.pool-type {
+    font-size: 14px;
+    color: #7a7f87;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+
+.pool-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.detail span {
+    display: block;
+    font-size: 12px;
+    color: #7a7f87;
+}
+
+.detail strong {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+@media (max-width: 600px) {
+    .pool-details {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .token-pair {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.pools-wrapper {
+    padding: 20px;
+    width: 100%;
+}
+
+.pools-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 4px;
+}
+
+.pools-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.total-tvl {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

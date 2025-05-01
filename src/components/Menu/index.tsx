@@ -5,7 +5,7 @@ import { useOnClickOutside } from '../../hooks/useOnClickOutside'
 import useToggle from '../../hooks/useToggle'
 
 import { ExternalLink } from '../../theme'
-import { Info} from "react-feather";
+import {Info, Pocket} from "react-feather";
 import {Faucet} from "../../theme/icons/Faucet";
 
 const StyledMenuIcon = styled(MenuIcon)`
@@ -92,13 +92,17 @@ export default function Menu() {
       </StyledMenuButton>
       {open && (
         <MenuFlyout>
+            <MenuItem  id="link" href="https://www.hackquest.io/zh-cn/faucets/50002">
+                <Faucet size={14} color="black" />
+                &nbsp;&nbsp;Faucet
+            </MenuItem>
+            <MenuItem target={''} id="link" href="#/pools">
+                <Pocket size={14} color="black" />
+                &nbsp;&nbsp;Pools
+            </MenuItem>
           <MenuItem id="link" href="https://www.hackquest.io/zh-cn/projects/Pharos-Builder-Base-Camp-Octopus-Swap">
             <Info size={14} />
             About
-          </MenuItem>
-          <MenuItem id="link" href="https://octopusswap.xyz/#/faucet">
-              <Faucet size={14} color="black" />
-               &nbsp;&nbsp;Faucet
           </MenuItem>
         </MenuFlyout>
       )}
