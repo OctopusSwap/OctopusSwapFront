@@ -184,7 +184,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
   height: 100%; 
 }
 
@@ -214,8 +213,9 @@ body {
   min-height: 100vh;
   height: 100%;
   //background-position: 0 -30vh;
-  background-repeat: no-repeat;
   background-image: linear-gradient(120deg, #5E7BBE 0%, #76A9D6 100%);
+  background-attachment: fixed; /* 让背景固定，不随页面内容滚动 */
+  background-size: cover;       /* 让渐变背景填满整个屏幕 */
   //background-color: #A4C6E0;
   //background-image: linear-gradient(120deg, #66A5D6 0%, #A1E2D3 100%);
 }
