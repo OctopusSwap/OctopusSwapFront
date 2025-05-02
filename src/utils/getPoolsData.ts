@@ -10,9 +10,7 @@ const PAIR_INTERFACE = new Interface(IUniswapV2Pair.abi);
 
 // 常用的 token logo API
 const TOKEN_LOGO_APIS = [
-    (address: string) => `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`,
-    (address: string) => `https://raw.githubusercontent.com/uniswap/assets/master/blockchains/ethereum/assets/${address}/logo.png`,
-    (address: string) => `https://tokens.1inch.io/${address}.png`,
+    (address: string) => `https://resource.octopusswap.xyz/images/tokens/${address}.png`,
 ];
 
 export interface TokenData {
