@@ -9,7 +9,7 @@ const getTokenIcon = (token: TokenData) => {
     if (token.logoURI) {
         return token.logoURI;
     }
-    return `/images/eth.webp`;
+    return `/images/pharos.png`;
 };
 
 const ITEMS_PER_PAGE = 10;
