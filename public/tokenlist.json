@@ -27,7 +27,7 @@
       "chainId": 50002,
       "address": "0x45c02C5f364D8543Df230F66FE88bECA0BEa7819",
       "name": "Test USDC",
-      "symbol": "USDC",
+      "symbol": "Test USDC",
       "decimals": 18,
       "logoURI": "https://octopusswap.xyz/images/usdc.webp"
     }
