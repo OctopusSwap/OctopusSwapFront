@@ -105,7 +105,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "pharosswap-sdk": "^1.0.0",
+    "pharosswap-sdk": "^1.0.1",
     "react-router-dom": "5.3.4"
   }
 }

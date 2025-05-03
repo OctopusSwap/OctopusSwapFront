@@ -11091,10 +11091,10 @@ performance-now@^2.1.0:
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
-pharosswap-sdk@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pharosswap-sdk/-/pharosswap-sdk-1.0.0.tgz#82a7b397ebd7746c92b0a8ba0f831ebca82fb1af"
-  integrity sha512-AN+y20M8SuuLEcqDvLkylbvpc81MWpMJgN/GXsJ1zawSXMZ6czVEJOnhtLypkgzy3ijdoc+9pmWljUypYh1zBA==
+pharosswap-sdk@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/pharosswap-sdk/-/pharosswap-sdk-1.0.1.tgz#a8d6a6fd3c24fd62809bf881d037af366723adb1"
+  integrity sha512-UJQOc+G6Ia5nqq99VcsiHuilOSbUAkHlulbJP7JS6W4cuyfvKK3UnqxlY0Kbp9J902u99+MIKZaoXWkISgiw4Q==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

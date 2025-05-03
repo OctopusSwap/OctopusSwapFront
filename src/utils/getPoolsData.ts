@@ -10,7 +10,7 @@ const PAIR_INTERFACE = new Interface(IUniswapV2Pair.abi);
 
 // 常用的 token logo API
 const TOKEN_LOGO_APIS = [
-    (address: string) => `https://resource.octopusswap.xyz/images/tokens/${address}.png`,
+    (address: string) => `https://www.octopusswap.xyz/images/tokens/${address}.png`,
 ];
 
 export interface TokenData {
