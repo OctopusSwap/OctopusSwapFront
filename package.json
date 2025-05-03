@@ -105,7 +105,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "octopusswap-sdk": "1.0.4",
+    "octopusswap-sdk": "1.0.5",
     "react-router-dom": "5.3.4"
   }
 }

@@ -5,11 +5,11 @@
     "Pharos Network",
     "defi"
   ],
-  "timestamp": "2025-04-30T20:37:00.000+00:00",
+  "timestamp": "2025-05-01T10:37:00.000+00:00",
   "tokens": [
     {
       "chainId": 50002,
-      "address": "0x158E5285649d3DcadD2A134435c80e9494B0D3F1",
+      "address": "0x0DEB27e44eC536F033b1116ceE4F8AfAb51108Da",
       "name": "Wrapped PPT",
       "symbol": "WPPT",
       "decimals": 18,
