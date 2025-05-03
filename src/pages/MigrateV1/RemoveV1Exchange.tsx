@@ -1,5 +1,5 @@
 import { TransactionResponse } from '@ethersproject/abstract-provider'
-import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from 'octopusswap-sdk'
+import { JSBI, Token, TokenAmount, WETH, Fraction, Percent, CurrencyAmount } from 'pharosswap-sdk'
 import React, { useCallback, useMemo, useState } from 'react'
 import ReactGA from 'react-ga'
 import { Redirect, RouteComponentProps } from 'react-router'

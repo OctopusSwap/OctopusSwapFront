@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { ChainId } from 'octopusswap-sdk'
+import { ChainId } from 'pharosswap-sdk'
 
 export interface SerializableTransactionReceipt {
   to: string

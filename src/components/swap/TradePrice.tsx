@@ -1,5 +1,5 @@
 import React from 'react'
-import { Price } from 'octopusswap-sdk'
+import { Price } from 'pharosswap-sdk'
 import { useContext } from 'react'
 import { Repeat } from 'react-feather'
 import { Text } from 'rebass'

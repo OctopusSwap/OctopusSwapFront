@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'octopusswap-sdk'
+import { currencyEquals, Trade } from 'pharosswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

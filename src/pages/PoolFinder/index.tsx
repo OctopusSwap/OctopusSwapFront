@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from 'octopusswap-sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from 'pharosswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

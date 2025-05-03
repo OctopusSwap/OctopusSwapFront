@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'octopusswap-sdk'
+import { Token, TokenAmount } from 'pharosswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

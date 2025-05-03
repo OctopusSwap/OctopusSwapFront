@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'octopusswap-sdk'
+import { Currency, ETHER, Token } from 'pharosswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Token, Trade } from 'octopusswap-sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from 'pharosswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

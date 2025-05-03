@@ -1,4 +1,4 @@
-import { ChainId } from 'octopusswap-sdk'
+import { ChainId } from 'pharosswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'

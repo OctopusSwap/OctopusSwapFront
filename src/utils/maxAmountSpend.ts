@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from 'octopusswap-sdk'
+import { CurrencyAmount, ETHER, JSBI } from 'pharosswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

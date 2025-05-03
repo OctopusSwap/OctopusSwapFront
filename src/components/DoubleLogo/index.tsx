@@ -1,4 +1,4 @@
-import { Currency } from 'octopusswap-sdk'
+import { Currency } from 'pharosswap-sdk'
 import React from 'react'
 import styled from 'styled-components'
 import CurrencyLogo from '../CurrencyLogo'

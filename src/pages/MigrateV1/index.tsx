@@ -1,4 +1,4 @@
-import { JSBI, Token } from 'octopusswap-sdk'
+import { JSBI, Token } from 'pharosswap-sdk'
 import React, { useCallback, useContext, useMemo, useState, useEffect } from 'react'
 import { ThemeContext } from 'styled-components'
 import { AutoColumn } from '../../components/Column'
