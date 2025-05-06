@@ -10666,10 +10666,10 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-octopusswap-sdk@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/octopusswap-sdk/-/octopusswap-sdk-2.0.0.tgz#9b02085deeba7810f49b5be4366ecc5df1e77410"
-  integrity sha512-Al0kRGDfzyLIi5w3t9V0kAtguYu+Q3QjzVAHPk7nFKamIJalqOX3K4ETY020pbb8agpkRVn7uyJikKVXcRvihQ==
+octopusswap-sdk@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/octopusswap-sdk/-/octopusswap-sdk-2.0.1.tgz#0179afcb72c1f3f98000e7b522fb2d3ac291296f"
+  integrity sha512-wvdhm+Xk07/Wzp3MMd4fuUkOC1C8AXCqTlpuxRl0W5h/Gx6++YzT9Aqcqwo5lQJTyLo1oZiFhwzuoETRKUnxpA==
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

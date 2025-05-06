@@ -10,7 +10,7 @@ const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
   [ChainId.GÖRLI]: '0x6Ce570d02D73d4c384b46135E87f8C592A8c86dA',
   [ChainId.KOVAN]: '0xD3E51Ef092B2845f10401a0159B2B96e8B6c3D30',
   [ChainId.PharosDevnet]: '0x3dc53C635E8e121822a9f38f9EaA36a07aff290b',
-  [ChainId.PharosTestnet]: '0x8fb88ba3fc32ae698be204dcc056d4937807aadc'
+  [ChainId.PharosTestnet]: '0x4Af9a34DF1F60eF47e59F91445845743cAb6750b'
 }
 
 const V1_FACTORY_INTERFACE = new Interface(V1_FACTORY_ABI)
