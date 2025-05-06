@@ -10666,6 +10666,19 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
+octopusswap-sdk@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/octopusswap-sdk/-/octopusswap-sdk-2.0.0.tgz#9b02085deeba7810f49b5be4366ecc5df1e77410"
+  integrity sha512-Al0kRGDfzyLIi5w3t9V0kAtguYu+Q3QjzVAHPk7nFKamIJalqOX3K4ETY020pbb8agpkRVn7uyJikKVXcRvihQ==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -11090,19 +11103,6 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
-
-pharosswap-sdk@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/pharosswap-sdk/-/pharosswap-sdk-1.0.1.tgz#a8d6a6fd3c24fd62809bf881d037af366723adb1"
-  integrity sha512-UJQOc+G6Ia5nqq99VcsiHuilOSbUAkHlulbJP7JS6W4cuyfvKK3UnqxlY0Kbp9J902u99+MIKZaoXWkISgiw4Q==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.2.2"

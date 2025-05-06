@@ -1,4 +1,4 @@
-import { ChainId } from 'pharosswap-sdk'
+import { ChainId } from 'octopusswap-sdk'
 import React from 'react'
 import { isMobile } from 'react-device-detect'
 import { Text } from 'rebass'
@@ -129,7 +129,8 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.PharosDevnet]: 'Pharos Devnet'
+  [ChainId.PharosDevnet]: 'Pharos Devnet',
+  [ChainId.PharosTestnet]: 'Pharos Testnet',
 }
 
 export default function Header() {

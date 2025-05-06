@@ -1,6 +1,6 @@
 import { Contract } from '@ethersproject/contracts';
 import { Web3Provider, JsonRpcProvider } from '@ethersproject/providers';
-import { FACTORY_ADDRESS } from 'pharosswap-sdk';
+import { FACTORY_ADDRESS } from 'octopusswap-sdk';
 import { Interface } from '@ethersproject/abi';
 import IUniswapV2Pair from '@uniswap/v2-core/build/IUniswapV2Pair.json';
 import IUniswapV2Factory from '@uniswap/v2-core/build/IUniswapV2Factory.json';
@@ -10,7 +10,7 @@ const PAIR_INTERFACE = new Interface(IUniswapV2Pair.abi);
 
 // 常用的 token logo API
 const TOKEN_LOGO_APIS = [
-    (address: string) => `https://www.octopusswap.xyz/images/tokens/${address}.png`,
+    (address: string) => `https://octopusswap.xyz/images/tokens/${address}.png`,
 ];
 
 export interface TokenData {

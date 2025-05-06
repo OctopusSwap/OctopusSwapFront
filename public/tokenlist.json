@@ -5,31 +5,39 @@
     "Pharos Network",
     "defi"
   ],
-  "timestamp": "2025-05-01T10:37:00.000+00:00",
+  "timestamp": "2025-05-07T00:00:00.000+00:00",
   "tokens": [
     {
-      "chainId": 50002,
-      "address": "0x0DEB27e44eC536F033b1116ceE4F8AfAb51108Da",
-      "name": "Wrapped PPT",
-      "symbol": "WPPT",
-      "decimals": 18,
-      "logoURI": "https://octopusswap.xyz/images/pharos.png"
-    },
-    {
-      "chainId": 50002,
-      "address": "0xE9E02683F664CbAcC65ae220AB6D85096139B969",
-      "name": "wBTC",
-      "symbol": "wBTC",
-      "decimals": 18,
-      "logoURI": "https://octopusswap.xyz/images/btc.webp"
-    },
-    {
-      "chainId": 50002,
-      "address": "0x45c02C5f364D8543Df230F66FE88bECA0BEa7819",
+      "chainId": 688688,
+      "address": "0xbe0Ab51F58aD51680c04CC48bBaD5E3DCBcB3314",
       "name": "Test USDC",
       "symbol": "TestUSDC",
       "decimals": 18,
       "logoURI": "https://octopusswap.xyz/images/usdc.webp"
+    },
+    {
+      "chainId": 688688,
+      "address": "0x6bBd2A5Ba8DB42aB1B12e1A1a905ee22A4a6Ec7A",
+      "name": "Test USDT",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://octopusswap.xyz/images/usdt.png"
+    },
+    {
+      "chainId": 688688,
+      "address": "0xbe0Ab51F58aD51680c04CC48bBaD5E3DCBcB3314",
+      "name": "Test BTC",
+      "symbol": "BTC",
+      "decimals": 18,
+      "logoURI": "https://octopusswap.xyz/images/btc.webp"
+    },
+    {
+      "chainId": 688688,
+      "address": "0x23a977530a48e318c6dBbe14a9D69b7614321C9F",
+      "name": "Test Oct",
+      "symbol": "OCT",
+      "decimals": 18,
+      "logoURI": "https://octopusswap.xyz/images/oct.png"
     }
   ],
   "version": {

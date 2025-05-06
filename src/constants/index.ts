@@ -1,9 +1,9 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'pharosswap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from 'octopusswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x9Cfe190613A008edae6e91d0667905dAFa11765f'
+export const ROUTER_ADDRESS = '0xda2192ddF7617Fd1C969CeE861AafA94c2bc8bcF'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -23,7 +23,8 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  [ChainId.PharosDevnet]: [WETH[ChainId.PharosDevnet]]
+  [ChainId.PharosDevnet]: [WETH[ChainId.PharosDevnet]],
+  [ChainId.PharosTestnet]: [WETH[ChainId.PharosTestnet]]
 }
 
 // used to construct intermediary pairs for trading

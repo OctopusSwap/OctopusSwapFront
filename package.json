@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "name": "octopus-swap-front",
+  "description": "Octopus Swap Front",
   "homepage": ".",
   "private": true,
   "devDependencies": {
@@ -105,7 +105,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "pharosswap-sdk": "^1.0.1",
+    "octopusswap-sdk": "2.0.0",
     "react-router-dom": "5.3.4"
   }
 }

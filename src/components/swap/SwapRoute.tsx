@@ -1,4 +1,4 @@
-import { Trade } from 'pharosswap-sdk'
+import { Trade } from 'octopusswap-sdk'
 import React, { Fragment, memo, useContext } from 'react'
 import { ChevronRight } from 'react-feather'
 import { Flex } from 'rebass'
