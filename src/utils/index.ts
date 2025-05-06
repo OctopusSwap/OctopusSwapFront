@@ -24,7 +24,7 @@ const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   5: 'goerli.',
   42: 'kovan.',
   50002: 'pharosscan.xyz',
-  688688: 'testnet.dplabs-internal.com',
+  688688: 'pharos-testnet.socialscan.io',
 }
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
