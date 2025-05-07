@@ -61,7 +61,7 @@ async function getTokenLogoURI(tokenAddress: string): Promise<string | undefined
 
 export async function getPoolsData(provider?: Web3Provider): Promise<PoolData[]> {
     // 如果没有提供 provider，使用默认的 JsonRpcProvider
-    const defaultProvider = new JsonRpcProvider('https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161');
+    const defaultProvider = new JsonRpcProvider('https://testnet.dplabs-internal.com');
     const usedProvider = provider || defaultProvider;
     
     const factory = new Contract(FACTORY_ADDRESS, FACTORY_INTERFACE, usedProvider);
